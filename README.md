@@ -4,9 +4,7 @@
 
 
 
-<sub>
-Results-driven and hard-working Chief Executive Officer skilled at pro-actively participating in all aspects of business development and management, focused on delivering timely, measurable, sustainable results that support critical objectives and drive value. 
-</sup>
+<sub>Results-driven and hard-working Chief Executive Officer skilled at pro-actively participating in all aspects of business development and management, focused on delivering timely, measurable, sustainable results that support critical objectives and drive value.</sup>
 
 _____
 
