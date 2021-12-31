@@ -5,7 +5,16 @@
 
 
 <sub>Results-driven and hard-working Computer Engineer skilled at pro-actively participating in all aspects of business development and management, focused on delivering timely, measurable, sustainable results that support critical objectives and drive value.Recognized for customer success, and consistent delivery of strong results through formal & advisory leadership. Highly talented, providing on-premise and cloud-based solutions using multiple technology stacks with an aptitude for perplexing, heterogeneous classification of networked environments and ability to maintain high standards of performance in the job, excellent time management and organizational skills, finding vulnerabilities in Web and mobile applications</sup>
+
 <hr>
+
+<h3 style="color:grey;"> Skills </h3>
+
+**Computer Skills** : Python3, Django, DRF, Android Automation, Selenium, HTML/CSS3, Celery, RabbitMQ,  Redis, Nginx, Uwsgi, Luigi, Deployment pipline, Gunicorn, LXC, Shell Script, Bash, Git, PostgreSQL, Plesk, Cpanel, MS Office, Adobe Photoshop, Adobe Illustrator, Adobe XD, Adobe In-Design, Gimp, Artcam, Camtasia, CNC, Blender 3D, Hardware expert, Network Administration.
+
+
+**Soft Skills** : Problem Resolution, Relationship Building, Creative Thinking, Communication Skills, Time Management , Critical Thinking, Meticulous attention to detail, Management Skills, Detail Oriented, Analytical skills, Interest in Helping Others,  Curiosity.
+
 <h3 style="color:grey;"> Interests </h3>
 
 **Proffesional** :   Software, Application, Automation, Robotics, Bot, Ai .<br>
