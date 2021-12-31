@@ -1,5 +1,4 @@
 
-![Header](assets/head.jpg)
 ![Header](assets/head.png)
 #### aka **NiM4**   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="15px"> 
 
@@ -18,3 +17,6 @@
 
  [UDEMY - Android Automation by Python ](https://www.udemy.com/course/android-automation-by-python-easy-dive-in/?referralCode=0619833B02BFB78C51E8) <br>
  [YOUTUBE - Python Logging ](https://www.youtube.com/watch?v=ujbyIqctZq0&t=402s&ab_channel=NiM4-TechnologyGEEK)
+
+____
+ ![Header](assets/head.jpg)
