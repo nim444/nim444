@@ -16,7 +16,6 @@ I’ve worked on scalable web applications, testing pipelines, and backend autom
 • Email: nima@soluzy.app  
 • LinkedIn: [linkedin.com/in/nim4](https://linkedin.com/in/nim4)
 
-![Footer](assets/head.jpg)
 
 ![](https://komarev.com/ghpvc/?username=nim444&label=Ghosted+Views)  
 ![](https://hit.yhype.me/github/profile?account_id=10053631)
