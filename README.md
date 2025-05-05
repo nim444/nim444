@@ -12,7 +12,6 @@ I’ve worked on scalable web applications, testing pipelines, and backend autom
 
 ## Contact Me
 
-• Website: [soluzy.app](https://soluzy.app)  
 • Email: nima@soluzy.app  
 • LinkedIn: [linkedin.com/in/nim4](https://linkedin.com/in/nim4)
 
