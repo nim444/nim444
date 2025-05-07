@@ -17,6 +17,9 @@ I’ve worked on scalable web applications, testing pipelines, and backend autom
 
 <br>
 
+![Stack](assets/stack.png)
+
+
 _____
 
 <br>
