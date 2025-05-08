@@ -18,10 +18,6 @@ I’ve worked on scalable web applications, testing pipelines, and backend autom
 • Email: nima@soluzy.app  
 • LinkedIn: [linkedin.com/in/nim4](https://linkedin.com/in/nim4)
 
-<br>
-
-![Stack](assets/stack.png)
-
 
 
 
