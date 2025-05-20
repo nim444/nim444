@@ -27,10 +27,10 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 | [FerroZip (CLI)](https://github.com/nim444/ferrozip) `Rust` | High-performance Rust CLI for compression (100x faster, 6000x smaller) |
 | [Django Celery Worker](https://github.com/nim444/django-celery-redis-worker) `Python` | Distributed task system with Celery, Redis, and dashboard integration |
 | [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted WebSocket server with NaCl Box and Ed25519/X25519 |
-| [Starlette Dashboard Kit](https://github.com/nim444/starlette-dashboard-kit) `Python` | Fullstack async dashboard with Starlette, Tailwind, Tabulator, ApexCharts |
-| [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + FastAPI |
-| [FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db) `Python` | JWT auth with SQL/NoSQL support, refresh tokens, CI pipelines |
-| [1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second) `Go` | Ultra-fast HTTP/WebSocket server with integrated load testing |
 | [SDET Django API](https://github.com/nim444/sdet-django-api) `Python` | REST API with test coverage, CI, TDD practices for SDET workflows |
+| [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + FastAPI |
+| [1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second) `Go` | Ultra-fast HTTP/WebSocket server with integrated load testing |
+| [FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db) `Python` | JWT auth with SQL/NoSQL support, refresh tokens, CI pipelines |
+| [Starlette Dashboard Kit](https://github.com/nim444/starlette-dashboard-kit) `Python` | Fullstack async dashboard with Starlette, Tailwind, Tabulator, ApexCharts |
 | [Python T-Strings Security](https://github.com/nim444/python-tstrings-injection-prevention) `Python` | Safe templating demo for Python 3.14+ to prevent SQLi/XSS |
 | [Firefly III Reverse Proxy](https://github.com/nim444/firefly-mariadb-nginx-self-hosted) `Docker` | Firefly III deployed with MariaDB + Nginx + SSL setup |
