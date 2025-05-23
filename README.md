@@ -35,3 +35,41 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 | [1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second) `Go` | Ultra-fast HTTP/WebSocket server with integrated load testing |
 | [Python T-Strings Security](https://github.com/nim444/python-tstrings-injection-prevention) `Python` | Safe templating demo for Python 3.14+ to prevent SQLi/XSS |
 | [Firefly III Reverse Proxy](https://github.com/nim444/firefly-mariadb-nginx-self-hosted) `Docker` | Firefly III deployed with MariaDB + Nginx + SSL setup |
+
+---
+
+#### Toolbox
+
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Starlette](https://img.shields.io/badge/Starlette-20232A?style=for-the-badge&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge)
+![HTMX](https://img.shields.io/badge/HTMX-4169E1?style=for-the-badge)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![LXC](https://img.shields.io/badge/LXC-333333?style=for-the-badge&logo=linux&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Caddy](https://img.shields.io/badge/Caddy-00C7B7?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![JetBrains](https://img.shields.io/badge/JetBrains_IDE-000000?style=for-the-badge&logo=jetbrains&logoColor=white)
+![Copilot](https://img.shields.io/badge/GitHub_Copilot-1C1E21?style=for-the-badge&logo=github&logoColor=white)
+![Warp](https://img.shields.io/badge/Warp_Terminal-7D4AEA?style=for-the-badge)
+![Notion](https://img.shields.io/badge/Notion_AI-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_EC2-F29111?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
