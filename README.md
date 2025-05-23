@@ -10,6 +10,8 @@ Senior Software Engineer · Fast-Moving Software Systems · Business Software So
 
 I help businesses automate systems and ship reliable products using modern tools and solid architecture.  
 I’ve worked on scalable web applications, testing pipelines, and backend automation for SMBs.<br/>
+
+
 My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Low-latency Infrastructure**
 
 ### Contact Me
