@@ -19,6 +19,7 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 
 ---
 
+#### Open Source Tooling
 
 
 | Project | Description |
