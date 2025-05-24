@@ -32,10 +32,11 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 | [Django SDET API](https://github.com/nim444/sdet-django-api) `Python` | REST API with test coverage, CI, TDD practices for SDET workflows |
 | [FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db) `Python` | JWT auth with SQL/NoSQL support, refresh tokens, CI pipelines |
 | [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + FastAPI |
+| [MCP INGEST](https://github.com/nim444/mcp-ingest) `Python` | MCP Server for Ingest `API`, `SDK`, and `Schema` into AI Models” |
 | [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted WebSocket server with NaCl Box and Ed25519/X25519 |
 | [Starlette Dashboard Kit](https://github.com/nim444/starlette-dashboard-kit) `Python` | Fullstack async dashboard with Starlette, Tailwind, Tabulator, ApexCharts |
 | [1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second) `Go` | Ultra-fast HTTP/WebSocket server with integrated load testing |
-| [Python T-Strings Security](https://github.com/nim444/python-tstrings-injection-prevention) `Python` | Safe templating demo for Python 3.14+ to prevent SQLi/XSS |
+| [Python T-Strings Security](https://github.com/nim444/python-tstring-injection-prevention) `Python` | Safe templating demo for Python 3.14+ to prevent SQLi/XSS |
 | [Firefly III Reverse Proxy](https://github.com/nim444/firefly-mariadb-nginx-self-hosted) `Docker` | Firefly III deployed with MariaDB + Nginx + SSL setup |
 
 ---
