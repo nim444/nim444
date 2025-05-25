@@ -34,6 +34,7 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 | [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + FastAPI |
 | [MCP INGEST](https://github.com/nim444/mcp-ingest) `Python` | MCP Server for Ingest `API`, `SDK`, and `Schema` into AI Models” |
 | [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted `WebSocket server` with `NaCl Box` and `Ed25519/X25519` |
+| [ETL Airflow PG Pipeline](https://github.com/nim444/etl-airflow-pg-pipeline) `Python` | Minimal `ETL pipeline` using `Apache Airflow`, `PostgreSQL`, `Pandas`, and `Docker` |
 | [Starlette Dashboard Kit](https://github.com/nim444/starlette-dashboard-kit) `Python` | Fullstack async dashboard with `Starlette`, `Tailwind`, `Tabulator`, `ApexCharts` |
 | [1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second) `Go` | Ultra-fast `HTTP/WebSocket server` with integrated `load testing` |
 | [Python T-Strings Security](https://github.com/nim444/python-tstring-injection-prevention) `Python` | Safe templating demo for `Python 3.14+` to prevent `SQLi/XSS` |
