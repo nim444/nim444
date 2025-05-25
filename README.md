@@ -1,8 +1,9 @@
 ![Profile](https://img.shields.io/badge/Profile-Active-green) ![Ghosted Views](https://komarev.com/ghpvc/?username=nim444&label=Ghosted+Views) 
 
-# aka **NiM4**
 
-Senior Software Engineer · Fast-Moving Software Systems · Business Software Solution<br/>
+# ⋆⦑ aka NiM4 ⦒⋆
+
+Senior Software Engineer ∣ Fast-Moving Software Systems ∣ Business Software Solution<br/>
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nim444&layout=compact&theme=transparent&hide_border=true&bg_color=00000000)
 
@@ -12,9 +13,11 @@ I help businesses automate systems and ship reliable products using modern tools
 I’ve worked on scalable web applications, testing pipelines, and backend automation for SMBs.<br/>
 
 
-My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Low-latency Infrastructure**
+My focus currently: **B2B Automation ✦ AI Workflows ✦ Secure Web APIs ✦ Low-latency Infrastructure**
 
-
+![Open to consulting](https://img.shields.io/badge/Open%20to%20Consulting-Automation%20%26%20AI%20Integrations-gray?style=for-the-badge&logo=codersrank) <a href="mailto:nima@soluzy.ro">
+  <img src="https://img.shields.io/badge/nima@soluzy.ro-blue?style=for-the-badge" />
+</a>
 
 ---
 
@@ -97,6 +100,7 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 
 </div>
 </details>
+
 
 
 
