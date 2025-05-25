@@ -14,10 +14,7 @@ I’ve worked on scalable web applications, testing pipelines, and backend autom
 
 My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Low-latency Infrastructure**
 
-### Contact Me
 
-• Email: nima[at]soluzy.ro <br/>
-• LinkedIn: [linkedin.com/in/nim4](https://linkedin.com/in/nim4)
 
 ---
 
