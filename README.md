@@ -42,8 +42,11 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 
 ---
 
-#### Toolbox
 
+<details>
+  <summary>Toolbox</summary>
+
+<div>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -55,23 +58,26 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Starlette](https://img.shields.io/badge/Starlette-20232A?style=for-the-badge&logo=python&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache_Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge)
 ![HTMX](https://img.shields.io/badge/HTMX-4169E1?style=for-the-badge)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge)
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![LXC](https://img.shields.io/badge/LXC-333333?style=for-the-badge&logo=linux&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Caddy](https://img.shields.io/badge/Caddy-00C7B7?style=for-the-badge)
+![HAProxy](https://img.shields.io/badge/HAProxy-000000?style=for-the-badge&logo=haproxy&logoColor=white)
+![PgBouncer](https://img.shields.io/badge/PgBouncer-0080FF?style=for-the-badge)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![S3](https://img.shields.io/badge/AWS_S3-569A31?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![JetBrains](https://img.shields.io/badge/JetBrains_IDE-000000?style=for-the-badge&logo=jetbrains&logoColor=white)
 ![Copilot](https://img.shields.io/badge/GitHub_Copilot-1C1E21?style=for-the-badge&logo=github&logoColor=white)
 ![Warp](https://img.shields.io/badge/Warp_Terminal-7D4AEA?style=for-the-badge)
@@ -91,3 +97,11 @@ My focus currently: **B2B Automation • AI Workflows • Secure Web APIs • Lo
 ![Performance Testing](https://img.shields.io/badge/Performance_Testing-008080?style=for-the-badge)
 ![Compatibility Testing](https://img.shields.io/badge/Compatibility_Testing-FFB300?style=for-the-badge)
 ![Integration Testing](https://img.shields.io/badge/Integration_Testing-3366CC?style=for-the-badge)
+
+</div>
+</details>
+
+
+
+
+
