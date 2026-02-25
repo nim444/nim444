@@ -5,15 +5,13 @@
 
 Senior Software Engineer ∣ Fast-Moving Software Systems ∣ Business Software Solution<br/>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nim444&layout=compact&theme=transparent&hide_border=true&bg_color=00000000)
-
 ### What I Do
 
-I help businesses automate systems and ship reliable products using modern tools and solid architecture.  
-I’ve worked on scalable web applications, testing pipelines, and backend automation for SMBs.<br/>
+I help businesses develop/automate systems and ship reliable products using modern tools and solid architecture.  
+I've worked on scalable AI Products, web applications, complex pipelines, and backend automation for SMBs and corporations within enterprises to complete software partnerships.<br/>
 
 
-> My focus currently: **B2B Automation ✦ AI Workflows ✦ Secure Web APIs ✦ Low-latency Infrastructure**
+> My focus currently: **✦ EU B2B Contracts ✦**
 
 ![Open to consulting](https://img.shields.io/badge/Open%20to%20Consulting-Automation%20%26%20AI%20Integrations-gray?style=for-the-badge&logo=openai) <a href="mailto:nima@soluzy.ro">
   <img src="https://img.shields.io/badge/nima@soluzy.ro-blue?style=for-the-badge" />
@@ -27,23 +25,25 @@ I’ve worked on scalable web applications, testing pipelines, and backend autom
 | Project | Description |
 |--------|-------------|
 | [FerroZip (CLI)](https://github.com/nim444/ferrozip) `Rust` | High-performance `Rust CLI` for compression (100x faster, 6000x smaller) |
+| [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + MCP |
+| [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted `WebSocket server` with `NaCl Box` and `Ed25519/X25519` |
+| [MCP OpenAPI Toolkit](https://github.com/nim444/mcp_openapi_toolkit) `Python` | Interactive `CLI` tool to generate `MCP` tool specs from `OpenAPI` schemas |
 | [Django Scalable Stack](https://github.com/nim444/django-scalable-stack-rw) `Python` | Production-grade `Django`, `PgBouncer`, `HAProxy`, `Redis cache`, `Docker`-based setup |
 | [Django Celery Worker](https://github.com/nim444/django-celery-redis-worker) `Python` | Distributed task system with `Celery`, `Redis`, and dashboard integration |
 | [Django SDET API](https://github.com/nim444/sdet-django-api) `Python` | `REST API` with test `coverage`, `CI`, `TDD` practices for SDET workflows |
 | [FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db) `Python` | JWT auth with `SQL/NoSQL` support, refresh tokens, CI pipelines |
-| [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + FastAPI |
-| [MCP INGEST](https://github.com/nim444/mcp-ingest) `Python` | MCP Server for Ingest `API`, `SDK`, and `Schema` into AI Models” |
-| [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted `WebSocket server` with `NaCl Box` and `Ed25519/X25519` |
+| [X Tweet Automation](https://github.com/nim444/x-tweet-automation) `Python` | Queue-based tweet scheduler using `ADB` + `TinyDB` with `CLI` control |
 | [ETL Airflow PG Pipeline](https://github.com/nim444/etl-airflow-pg-pipeline) `Python` | Minimal `ETL pipeline` using `Apache Airflow`, `PostgreSQL`, `Pandas`, and `Docker` |
 | [Starlette Dashboard Kit](https://github.com/nim444/starlette-dashboard-kit) `Python` | Fullstack async dashboard with `Starlette`, `Tailwind`, `Tabulator`, `ApexCharts` |
 | [1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second) `Go` | Ultra-fast `HTTP/WebSocket server` with integrated `load testing` |
 | [Python T-Strings Security](https://github.com/nim444/python-tstring-injection-prevention) `Python` | Safe templating demo for `Python 3.14+` to prevent `SQLi/XSS` |
+| [MCP INGEST](https://github.com/nim444/mcp-ingest) `Python` | MCP Server for Ingest `API`, `SDK`, and `Schema` into AI Models” |
 | [Firefly III Reverse Proxy](https://github.com/nim444/firefly-mariadb-nginx-self-hosted) `Docker` | `Firefly III` deployed with `MariaDB` + `Nginx` + `SSL` setup |
 
 ---
 
 
-<details>
+<details open>
   <summary>Toolbox</summary>
 
 <div>
