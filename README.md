@@ -26,11 +26,12 @@ I've worked on scalable AI Products, web applications, complex pipelines, and ba
 |--------|-------------|
 | [FerroZip (CLI)](https://github.com/nim444/ferrozip) `Rust` | High-performance `Rust CLI` for compression (100x faster, 6000x smaller) |
 | [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + MCP |
+| [Typer AI Android](https://github.com/nim444/Typer-AI-Android) `Kotlin` | System-wide AI typing assistant using `Gemini`/`Grok` via `Quick Settings` & floating tile |
+| [Django SDET API](https://github.com/nim444/sdet-django-api) `Python` | `REST API` with test `coverage`, `CI`, `TDD` practices for SDET workflows |
 | [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted `WebSocket server` with `NaCl Box` and `Ed25519/X25519` |
 | [MCP OpenAPI Toolkit](https://github.com/nim444/mcp_openapi_toolkit) `Python` | Interactive `CLI` tool to generate `MCP` tool specs from `OpenAPI` schemas |
 | [Django Scalable Stack](https://github.com/nim444/django-scalable-stack-rw) `Python` | Production-grade `Django`, `PgBouncer`, `HAProxy`, `Redis cache`, `Docker`-based setup |
 | [Django Celery Worker](https://github.com/nim444/django-celery-redis-worker) `Python` | Distributed task system with `Celery`, `Redis`, and dashboard integration |
-| [Django SDET API](https://github.com/nim444/sdet-django-api) `Python` | `REST API` with test `coverage`, `CI`, `TDD` practices for SDET workflows |
 | [FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db) `Python` | JWT auth with `SQL/NoSQL` support, refresh tokens, CI pipelines |
 | [X Tweet Automation](https://github.com/nim444/x-tweet-automation) `Python` | Queue-based tweet scheduler using `ADB` + `TinyDB` with `CLI` control |
 | [ETL Airflow PG Pipeline](https://github.com/nim444/etl-airflow-pg-pipeline) `Python` | Minimal `ETL pipeline` using `Apache Airflow`, `PostgreSQL`, `Pandas`, and `Docker` |
