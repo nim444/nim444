@@ -3,7 +3,7 @@
 
 # ⋆⦑ aka NiM4 ⦒⋆
 
-Senior Software Engineer ∣ Fast-Moving Software Systems ∣ Business Software Solution<br/>
+Senior Manager & Software Engineer ∣ Fast-Moving Software Systems ∣ Business Software Solution<br/>
 
 ### What I Do
 
