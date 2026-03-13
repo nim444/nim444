@@ -26,6 +26,7 @@ I've worked on scalable AI Products, web applications, complex pipelines, and ba
 |--------|-------------|
 | [FerroZip (CLI)](https://github.com/nim444/ferrozip) `Rust` | High-performance `Rust CLI` for compression (100x faster, 6000x smaller) |
 | [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + MCP |
+| [riskcore-cpp](https://github.com/nim444/riskcore-cpp) `C++` | Real-time equity risk engine — `VaR`, `Black-Scholes Greeks`, `Sharpe` over `WebSocket` · sub-ms `C++20` compute |
 | [Typer AI Mac](https://github.com/nim444/Typer-AI-Mac) `Swift` | System-wide AI writing copilot for macOS using `Gemini`/`Grok` via `menu bar` & `NSPopover` |
 | [Typer AI Android](https://github.com/nim444/Typer-AI-Android) `Kotlin` | System-wide AI typing assistant using `Gemini`/`Grok` via `Quick Settings` & floating tile |
 | [Django SDET API](https://github.com/nim444/sdet-django-api) `Python` | `REST API` with test `coverage`, `CI`, `TDD` practices for SDET workflows |
@@ -45,7 +46,7 @@ I've worked on scalable AI Products, web applications, complex pipelines, and ba
 ---
 
 
-<details open>
+<details>
   <summary>Toolbox</summary>
 
 <div>
