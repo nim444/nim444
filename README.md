@@ -24,6 +24,8 @@ I've worked on scalable AI Products, web applications, complex pipelines, and ba
 
 | Project | Description |
 |--------|-------------|
+| [Svault](https://github.com/nim444/Svault) `Rust` | Secret access layer for AI agents — `policy engine` + `AI judge` gate every request, `AES-256-GCM` vaults, `MCP server`, `TUI` · on [crates.io](https://crates.io/crates/svault-ai) |
+| [featherbar](https://github.com/nim444/featherbar) `Rust` | Featherweight macOS `menu bar` system monitor — RAM/CPU/power, zero background threads, flat memory |
 | [FerroZip (CLI)](https://github.com/nim444/ferrozip) `Rust` | High-performance `Rust CLI` for compression (100x faster, 6000x smaller) |
 | [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + MCP |
 | [riskcore-cpp](https://github.com/nim444/riskcore-cpp) `C++` | Real-time equity risk engine — `VaR`, `Black-Scholes Greeks`, `Sharpe` over `WebSocket` · sub-ms `C++20` compute |
