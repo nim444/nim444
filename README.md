@@ -26,6 +26,7 @@ I've worked on scalable AI Products, web applications, complex pipelines, and ba
 |--------|-------------|
 | [Svault](https://github.com/nim444/Svault) `Rust` | Secret access layer for AI agents — `policy engine` + `AI judge` gate every request, `AES-256-GCM` vaults, `MCP server`, `TUI` · on [crates.io](https://crates.io/crates/svault-ai) |
 | [featherbar](https://github.com/nim444/featherbar) `Rust` | Featherweight macOS `menu bar` system monitor — CPU/RAM/power/temp on two color-coded lines, zero background threads, flat leak-free memory · on [crates.io](https://crates.io/crates/featherbar) |
+| [GGTyper](https://github.com/nim444/GGTyper) `Swift` | AI writing copilot for `macOS 27` — `OpenRouter` models, prompt `Characters`, green `diff view`, `push-to-talk` dictation, `Liquid Glass` UI — successor of Typer AI |
 | [FerroZip (CLI)](https://github.com/nim444/ferrozip) `Rust` | High-performance `Rust CLI` for compression (100x faster, 6000x smaller) |
 | [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + MCP |
 | [riskcore-cpp](https://github.com/nim444/riskcore-cpp) `C++` | Real-time equity risk engine — `VaR`, `Black-Scholes Greeks`, `Sharpe` over `WebSocket` · sub-ms `C++20` compute |
