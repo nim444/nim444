@@ -23,52 +23,89 @@ I've worked on scalable AI Products, web applications, complex pipelines, and ba
 
 Sorted by maturity: shipped and maintained first, then reusable building blocks, then experiments.
 
-**⭐ Flagship**
+##### Flagship
 
-| Project | Description |
-|--------|-------------|
-| [Qalam](https://github.com/nim444/qalam) `Swift` `Kotlin` | Galaxy `S Pen` as a pen tablet for the Mac — hover/tap `cursor`, `ink overlay` for screen recordings, 6-digit-code pairing + `AES-256-GCM`, `Wi-Fi` + `USB` fallback · CI with protocol tests |
-| [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation for AI agents — `MCP` server over `uiautomator2` · most-starred |
-| [Kelid](https://github.com/nim444/kelid) `Swift` | The key your AI agents have to ask for — native macOS secret access layer: `policy engine` + `AI guardian`, `Touch ID`, tamper-evident audit, `MCP` · successor of [Svault](https://github.com/nim444/Svault) `Rust` (18 releases, on [crates.io](https://crates.io/crates/svault-ai)) |
-| [featherbar](https://github.com/nim444/featherbar) `Rust` | Featherweight macOS `menu bar` system monitor — CPU/RAM/power/temp on two color-coded lines, zero background threads, flat leak-free memory · on [crates.io](https://crates.io/crates/featherbar) |
-| [FerroZip (CLI)](https://github.com/nim444/ferrozip) `Rust` | High-performance `Rust CLI` for compression (100x faster, 6000x smaller) |
-| [GGTyper](https://github.com/nim444/GGTyper) `Swift` | AI writing copilot for `macOS 27` — `OpenRouter` models, prompt `Characters`, green `diff view`, `push-to-talk` dictation, `Liquid Glass` UI · v1.0 release |
-| [riskcore-cpp](https://github.com/nim444/riskcore-cpp) `C++` | Real-time equity risk engine — `VaR`, `Black-Scholes Greeks`, `Sharpe` over `WebSocket` · sub-ms `C++20` compute |
-| [MacAmp](https://github.com/nim444/MacAmp) `Rust` | Winamp for macOS — `Webamp` in a `Tauri v2` shell with a local `SQLite` music library, ~100k skins, global media keys, Now Playing |
+| Project | Stack | What it is | Signals |
+|:--|:--|:--|:--|
+| **[Qalam](https://github.com/nim444/qalam)** | ![Swift][swift] ![Kotlin][kotlin] | Galaxy `S Pen` as a pen tablet for the Mac: hover/tap `cursor`, `ink overlay` for screen recordings, 6-digit-code pairing + `AES-256-GCM`, `Wi-Fi` + `USB` fallback | [![CI][qalam-ci]](https://github.com/nim444/qalam/actions) ![License][qalam-lic] |
+| **[MCP Android Agent](https://github.com/nim444/mcp-android-server-python)** | ![Python][python] ![MCP][mcp] ![Android][android] | Headless Android automation for AI agents: an `MCP` server over `uiautomator2` | ![Stars][mcpa-stars] [![CI][mcpa-ci]](https://github.com/nim444/mcp-android-server-python/actions) |
+| **[Kelid](https://github.com/nim444/kelid)** | ![Swift][swift] ![MCP][mcp] | The key your AI agents have to ask for: `policy engine` + `AI guardian`, `Touch ID`, tamper-evident audit. Successor of [Svault](https://github.com/nim444/Svault) (`Rust`, 18 releases) | [![Svault crate][svault-v]](https://crates.io/crates/svault-ai) ![Downloads][svault-d] |
+| **[featherbar](https://github.com/nim444/featherbar)** | ![Rust][rust] ![macOS][macos] | Featherweight `menu bar` system monitor: CPU/RAM/power/temp on two color-coded lines, zero background threads, flat leak-free memory | [![crates.io][feather-v]](https://crates.io/crates/featherbar) ![Downloads][feather-d] |
+| **[FerroZip](https://github.com/nim444/ferrozip)** | ![Rust][rust] | High-performance compression `CLI` (100x faster, 6000x smaller) | ![Stars][ferro-stars] [![Release][ferro-rel]](https://github.com/nim444/ferrozip/releases) |
+| **[GGTyper](https://github.com/nim444/GGTyper)** | ![Swift][swift] ![macOS][macos] | AI writing copilot for `macOS 27`: `OpenRouter` models, prompt `Characters`, green `diff view`, `push-to-talk`, `Liquid Glass` UI | [![Release][gg-rel]](https://github.com/nim444/GGTyper/releases) |
+| **[riskcore-cpp](https://github.com/nim444/riskcore-cpp)** | ![C++][cpp] | Real-time equity risk engine: `VaR`, `Black-Scholes Greeks`, `Sharpe` over `WebSocket`, sub-ms `C++20` compute | [![CI][risk-ci]](https://github.com/nim444/riskcore-cpp/actions) |
+| **[MacAmp](https://github.com/nim444/MacAmp)** | ![Rust][rust] ![Tauri][tauri] | Winamp for macOS: `Webamp` in a native shell with a local `SQLite` music library, ~100k skins, global media keys, Now Playing | — |
 
-**🧱 Production templates & services**
+##### Production templates & services
 
-| Project | Description |
-|--------|-------------|
-| [Django SDET API](https://github.com/nim444/sdet-django-api) `Python` | `REST API` with test `coverage`, `CI`, `TDD` practices for SDET workflows |
-| [FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db) `Python` | JWT auth with `SQL/NoSQL` support, refresh tokens, CI pipelines |
-| [Django Scalable Stack](https://github.com/nim444/django-scalable-stack-rw) `Python` | Production-grade `Django`, `PgBouncer`, `HAProxy`, `Redis cache`, `Docker`-based setup |
-| [Django Celery Worker](https://github.com/nim444/django-celery-redis-worker) `Python` | Distributed task system with `Celery`, `Redis`, and dashboard integration |
-| [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted `WebSocket server` with `NaCl Box` and `Ed25519/X25519` |
-| [Industrial Generator Monitor](https://github.com/nim444/generator-manager) `Python` `QML` | `Qt Quick` control panel for a generator, power outlets and battery — status, load, uptime, maintenance |
-| [MCP OpenAPI Toolkit](https://github.com/nim444/mcp_openapi_toolkit) `Python` | Interactive `CLI` tool to generate `MCP` tool specs from `OpenAPI` schemas |
-| [slzmcp](https://github.com/nim444/slzmcp) `Python` | `MCP` server + client over streamable `HTTP`, with external auth (`Auth0`, `Firebase`, `Cognito`) |
-| [Starlette Dashboard Kit](https://github.com/nim444/starlette-dashboard-kit) `Python` | Fullstack async dashboard with `Starlette`, `Tailwind`, `Tabulator`, `ApexCharts` |
-| [1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second) `Go` | Ultra-fast `HTTP/WebSocket server` with integrated `load testing` |
-| [AssetFlow](https://github.com/nim444/AssetFlow) `Python` | `Django` asset tracker — what you own, what it's worth, where to sell it (`OLX`, `Facebook`, `Vinted`), how the sale went |
+| Project | Stack | What it is | Signals |
+|:--|:--|:--|:--|
+| **[Django SDET API](https://github.com/nim444/sdet-django-api)** | ![Python][python] ![Django][django] | `REST API` with test `coverage`, `CI` and `TDD` practices for SDET workflows | ![License][sdet-lic] |
+| **[FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db)** | ![Python][python] ![FastAPI][fastapi] | JWT auth with `SQL/NoSQL` repositories, refresh tokens, CI pipelines | ![License][fastapi-lic] |
+| **[Django Scalable Stack](https://github.com/nim444/django-scalable-stack-rw)** | ![Django][django] ![Docker][docker] | Production-grade `Django` with `PgBouncer`, `HAProxy` and a `Redis` cache | ![License][stack-lic] |
+| **[Django Celery Worker](https://github.com/nim444/django-celery-redis-worker)** | ![Celery][celery] ![Redis][redis] | Distributed task system with scheduling, retries and a monitoring dashboard | — |
+| **[Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket)** | ![Python][python] | End-to-end encrypted `WebSocket` server and client: `NaCl Box`, `Ed25519/X25519` | — |
+| **[Industrial Generator Monitor](https://github.com/nim444/generator-manager)** | ![Python][python] ![Qt][qt] | `Qt Quick` control panel for a generator, power outlets and battery: status, load, uptime, maintenance | — |
+| **[MCP OpenAPI Toolkit](https://github.com/nim444/mcp_openapi_toolkit)** | ![Python][python] ![MCP][mcp] | Interactive `CLI` that generates `MCP` tool specs from `OpenAPI` schemas | ![License][openapi-lic] |
+| **[slzmcp](https://github.com/nim444/slzmcp)** | ![Python][python] ![MCP][mcp] | `MCP` server + client over streamable `HTTP`, with external auth (`Auth0`, `Firebase`, `Cognito`) | — |
+| **[Starlette Dashboard Kit](https://github.com/nim444/starlette-dashboard-kit)** | ![Python][python] ![Tailwind][tailwind] | Fullstack async dashboard: `Starlette`, `Tabulator`, `ApexCharts` | — |
+| **[1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second)** | ![Go][go] | Ultra-fast `HTTP/WebSocket` server on `Fiber`, with built-in `load testing` | — |
+| **[AssetFlow](https://github.com/nim444/AssetFlow)** | ![Python][python] ![Django][django] | Asset tracker: what you own, what it's worth, where to sell it (`OLX`, `Facebook`, `Vinted`), how the sale went | ![License][asset-lic] |
 
-<details>
-  <summary><b>🧪 Experiments & smaller projects</b></summary>
-<br>
+##### Experiments & smaller projects
 
-| Project | Description |
-|--------|-------------|
-| [MCP INGEST](https://github.com/nim444/mcp-ingest) `Python` | MCP server to ingest `API`, `SDK` and `Schema` docs into AI models · in development |
-| [Typer AI Mac](https://github.com/nim444/Typer-AI-Mac) `Swift` | System-wide AI writing copilot for macOS using `Gemini`/`Grok` via `menu bar` & `NSPopover` · predecessor of GGTyper |
-| [Typer AI Android](https://github.com/nim444/Typer-AI-Android) `Kotlin` | System-wide AI typing assistant using `Gemini`/`Grok` via `Quick Settings` & floating tile |
-| [ETL Airflow PG Pipeline](https://github.com/nim444/etl-airflow-pg-pipeline) `Python` | Minimal `ETL pipeline` using `Apache Airflow`, `PostgreSQL`, `Pandas`, and `Docker` |
-| [X Tweet Automation](https://github.com/nim444/x-tweet-automation) `Python` | Queue-based tweet scheduler using `ADB` + `TinyDB` with `CLI` control |
-| [Python T-Strings Security](https://github.com/nim444/python-tstring-injection-prevention) `Python` | Safe templating demo for `Python 3.14+` to prevent `SQLi/XSS` |
-| [Django Toolbox](https://github.com/nim444/django-toolbox) `Python` | Field notes for Django — `Silk` profiling, `Celery` patterns, migrations, security, admin |
-| [Eleego](https://github.com/nim444/eleego) `Python` | 3D-printing lab — `Moonraker`/`Fluidd` API, `G-code` manipulation, procedural models |
-| [Firefly III Reverse Proxy](https://github.com/nim444/firefly-mariadb-nginx-self-hosted) `Docker` | `Firefly III` deployed with `MariaDB` + `Nginx` + `SSL` setup |
+| Project | Stack | What it is | Signals |
+|:--|:--|:--|:--|
+| **[MCP INGEST](https://github.com/nim444/mcp-ingest)** | ![Python][python] ![MCP][mcp] | MCP server to ingest `API`, `SDK` and `Schema` docs into AI models, in development | ![License][ingest-lic] |
+| **[Typer AI Mac](https://github.com/nim444/Typer-AI-Mac)** | ![Swift][swift] | System-wide AI writing copilot (`Gemini`/`Grok`) in the `menu bar`, the predecessor of GGTyper | [![CI][tmac-ci]](https://github.com/nim444/Typer-AI-Mac/actions) |
+| **[Typer AI Android](https://github.com/nim444/Typer-AI-Android)** | ![Kotlin][kotlin] ![Android][android] | System-wide AI typing assistant (`Gemini`/`Grok`) via `Quick Settings` and a floating tile | [![CI][tand-ci]](https://github.com/nim444/Typer-AI-Android/actions) |
+| **[ETL Airflow PG Pipeline](https://github.com/nim444/etl-airflow-pg-pipeline)** | ![Airflow][airflow] ![PostgreSQL][postgres] | Minimal `ETL pipeline` with `Pandas` and `Docker` | — |
+| **[X Tweet Automation](https://github.com/nim444/x-tweet-automation)** | ![Python][python] ![Android][android] | Queue-based tweet scheduler driven over `ADB`, with `TinyDB` and a `CLI` | — |
+| **[Python T-Strings Security](https://github.com/nim444/python-tstring-injection-prevention)** | ![Python][python] | `Python 3.14` template strings used to prevent `SQLi` and `XSS` | — |
+| **[Django Toolbox](https://github.com/nim444/django-toolbox)** | ![Django][django] | Field notes: `Silk` profiling, `Celery` patterns, migrations, security, admin | ![License][toolbox-lic] |
+| **[Eleego](https://github.com/nim444/eleego)** | ![Python][python] | 3D-printing lab: `Moonraker`/`Fluidd` API, `G-code` manipulation, procedural models | — |
+| **[Firefly III Reverse Proxy](https://github.com/nim444/firefly-mariadb-nginx-self-hosted)** | ![Docker][docker] | Self-hosted `Firefly III` with `MariaDB`, `Nginx` and `SSL` | — |
 
-</details>
+[swift]: https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white
+[kotlin]: https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white
+[rust]: https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white
+[python]: https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white
+[cpp]: https://img.shields.io/badge/C++20-00599C?style=flat-square&logo=cplusplus&logoColor=white
+[go]: https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white
+[mcp]: https://img.shields.io/badge/MCP-111111?style=flat-square&logo=modelcontextprotocol&logoColor=white
+[android]: https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white
+[macos]: https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white
+[tauri]: https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white
+[django]: https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white
+[fastapi]: https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white
+[docker]: https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white
+[celery]: https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white
+[redis]: https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white
+[qt]: https://img.shields.io/badge/Qt%20Quick-41CD52?style=flat-square&logo=qt&logoColor=white
+[tailwind]: https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white
+[airflow]: https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white
+[postgres]: https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white
+[qalam-ci]: https://img.shields.io/github/actions/workflow/status/nim444/qalam/ci.yml?branch=main&style=flat-square&label=CI
+[qalam-lic]: https://img.shields.io/github/license/nim444/qalam?style=flat-square
+[mcpa-stars]: https://img.shields.io/github/stars/nim444/mcp-android-server-python?style=flat-square&logo=github
+[mcpa-ci]: https://img.shields.io/github/actions/workflow/status/nim444/mcp-android-server-python/ci.yml?branch=main&style=flat-square&label=CI
+[svault-v]: https://img.shields.io/crates/v/svault-ai?style=flat-square&logo=rust&label=svault-ai
+[svault-d]: https://img.shields.io/crates/d/svault-ai?style=flat-square
+[feather-v]: https://img.shields.io/crates/v/featherbar?style=flat-square&logo=rust&label=crates.io
+[feather-d]: https://img.shields.io/crates/d/featherbar?style=flat-square
+[ferro-stars]: https://img.shields.io/github/stars/nim444/ferrozip?style=flat-square&logo=github
+[ferro-rel]: https://img.shields.io/github/v/release/nim444/ferrozip?include_prereleases&style=flat-square
+[gg-rel]: https://img.shields.io/github/v/release/nim444/GGTyper?style=flat-square
+[risk-ci]: https://img.shields.io/github/actions/workflow/status/nim444/riskcore-cpp/ci.yml?branch=main&style=flat-square&label=CI
+[tmac-ci]: https://img.shields.io/github/actions/workflow/status/nim444/Typer-AI-Mac/build.yml?branch=main&style=flat-square&label=CI
+[tand-ci]: https://img.shields.io/github/actions/workflow/status/nim444/Typer-AI-Android/build.yml?branch=main&style=flat-square&label=CI
+[sdet-lic]: https://img.shields.io/github/license/nim444/sdet-django-api?style=flat-square
+[fastapi-lic]: https://img.shields.io/github/license/nim444/fastapi-auth-multi-db?style=flat-square
+[stack-lic]: https://img.shields.io/github/license/nim444/django-scalable-stack-rw?style=flat-square
+[openapi-lic]: https://img.shields.io/github/license/nim444/mcp_openapi_toolkit?style=flat-square
+[asset-lic]: https://img.shields.io/github/license/nim444/AssetFlow?style=flat-square
+[ingest-lic]: https://img.shields.io/github/license/nim444/mcp-ingest?style=flat-square
+[toolbox-lic]: https://img.shields.io/github/license/nim444/django-toolbox?style=flat-square
 
 ---
 
