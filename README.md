@@ -21,31 +21,54 @@ I've worked on scalable AI Products, web applications, complex pipelines, and ba
 
 #### Open Source Tooling
 
+Sorted by maturity: shipped and maintained first, then reusable building blocks, then experiments.
+
+**⭐ Flagship**
 
 | Project | Description |
 |--------|-------------|
-| [Qalam](https://github.com/nim444/qalam) `Swift` `Kotlin` | Galaxy `S Pen` as a pen tablet for the Mac — hover/tap `cursor`, `ink overlay` for screen recordings (pen, highlighter, laser), `Wi-Fi` + `USB` fallback, multi-monitor |
-| [Svault](https://github.com/nim444/Svault) `Rust` | Secret access layer for AI agents — `policy engine` + `AI judge` gate every request, `AES-256-GCM` vaults, `MCP server`, `TUI` · on [crates.io](https://crates.io/crates/svault-ai) |
+| [Qalam](https://github.com/nim444/qalam) `Swift` `Kotlin` | Galaxy `S Pen` as a pen tablet for the Mac — hover/tap `cursor`, `ink overlay` for screen recordings, 6-digit-code pairing + `AES-256-GCM`, `Wi-Fi` + `USB` fallback · CI with protocol tests |
+| [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation for AI agents — `MCP` server over `uiautomator2` · most-starred |
+| [Kelid](https://github.com/nim444/kelid) `Swift` | The key your AI agents have to ask for — native macOS secret access layer: `policy engine` + `AI guardian`, `Touch ID`, tamper-evident audit, `MCP` · successor of [Svault](https://github.com/nim444/Svault) `Rust` (18 releases, on [crates.io](https://crates.io/crates/svault-ai)) |
 | [featherbar](https://github.com/nim444/featherbar) `Rust` | Featherweight macOS `menu bar` system monitor — CPU/RAM/power/temp on two color-coded lines, zero background threads, flat leak-free memory · on [crates.io](https://crates.io/crates/featherbar) |
-| [GGTyper](https://github.com/nim444/GGTyper) `Swift` | AI writing copilot for `macOS 27` — `OpenRouter` models, prompt `Characters`, green `diff view`, `push-to-talk` dictation, `Liquid Glass` UI — successor of Typer AI |
 | [FerroZip (CLI)](https://github.com/nim444/ferrozip) `Rust` | High-performance `Rust CLI` for compression (100x faster, 6000x smaller) |
-| [MCP Android Agent](https://github.com/nim444/mcp-android-server-python) `Python` | Headless Android automation using `uiautomator2` + MCP |
+| [GGTyper](https://github.com/nim444/GGTyper) `Swift` | AI writing copilot for `macOS 27` — `OpenRouter` models, prompt `Characters`, green `diff view`, `push-to-talk` dictation, `Liquid Glass` UI · v1.0 release |
 | [riskcore-cpp](https://github.com/nim444/riskcore-cpp) `C++` | Real-time equity risk engine — `VaR`, `Black-Scholes Greeks`, `Sharpe` over `WebSocket` · sub-ms `C++20` compute |
-| [Typer AI Mac](https://github.com/nim444/Typer-AI-Mac) `Swift` | System-wide AI writing copilot for macOS using `Gemini`/`Grok` via `menu bar` & `NSPopover` |
-| [Typer AI Android](https://github.com/nim444/Typer-AI-Android) `Kotlin` | System-wide AI typing assistant using `Gemini`/`Grok` via `Quick Settings` & floating tile |
+| [MacAmp](https://github.com/nim444/MacAmp) `Rust` | Winamp for macOS — `Webamp` in a `Tauri v2` shell with a local `SQLite` music library, ~100k skins, global media keys, Now Playing |
+
+**🧱 Production templates & services**
+
+| Project | Description |
+|--------|-------------|
 | [Django SDET API](https://github.com/nim444/sdet-django-api) `Python` | `REST API` with test `coverage`, `CI`, `TDD` practices for SDET workflows |
-| [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted `WebSocket server` with `NaCl Box` and `Ed25519/X25519` |
-| [MCP OpenAPI Toolkit](https://github.com/nim444/mcp_openapi_toolkit) `Python` | Interactive `CLI` tool to generate `MCP` tool specs from `OpenAPI` schemas |
+| [FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db) `Python` | JWT auth with `SQL/NoSQL` support, refresh tokens, CI pipelines |
 | [Django Scalable Stack](https://github.com/nim444/django-scalable-stack-rw) `Python` | Production-grade `Django`, `PgBouncer`, `HAProxy`, `Redis cache`, `Docker`-based setup |
 | [Django Celery Worker](https://github.com/nim444/django-celery-redis-worker) `Python` | Distributed task system with `Celery`, `Redis`, and dashboard integration |
-| [FastAPI Auth API](https://github.com/nim444/fastapi-auth-multi-db) `Python` | JWT auth with `SQL/NoSQL` support, refresh tokens, CI pipelines |
-| [X Tweet Automation](https://github.com/nim444/x-tweet-automation) `Python` | Queue-based tweet scheduler using `ADB` + `TinyDB` with `CLI` control |
-| [ETL Airflow PG Pipeline](https://github.com/nim444/etl-airflow-pg-pipeline) `Python` | Minimal `ETL pipeline` using `Apache Airflow`, `PostgreSQL`, `Pandas`, and `Docker` |
+| [Secure E2EE WebSocket](https://github.com/nim444/secure-e2ee-websocket) `Python` | Encrypted `WebSocket server` with `NaCl Box` and `Ed25519/X25519` |
+| [Industrial Generator Monitor](https://github.com/nim444/generator-manager) `Python` `QML` | `Qt Quick` control panel for a generator, power outlets and battery — status, load, uptime, maintenance |
+| [MCP OpenAPI Toolkit](https://github.com/nim444/mcp_openapi_toolkit) `Python` | Interactive `CLI` tool to generate `MCP` tool specs from `OpenAPI` schemas |
+| [slzmcp](https://github.com/nim444/slzmcp) `Python` | `MCP` server + client over streamable `HTTP`, with external auth (`Auth0`, `Firebase`, `Cognito`) |
 | [Starlette Dashboard Kit](https://github.com/nim444/starlette-dashboard-kit) `Python` | Fullstack async dashboard with `Starlette`, `Tailwind`, `Tabulator`, `ApexCharts` |
 | [1M+ RPS Server & Clients](https://github.com/nim444/go-fiber-1m-request-per-1second) `Go` | Ultra-fast `HTTP/WebSocket server` with integrated `load testing` |
+| [AssetFlow](https://github.com/nim444/AssetFlow) `Python` | `Django` asset tracker — what you own, what it's worth, where to sell it (`OLX`, `Facebook`, `Vinted`), how the sale went |
+
+<details>
+  <summary><b>🧪 Experiments & smaller projects</b></summary>
+<br>
+
+| Project | Description |
+|--------|-------------|
+| [MCP INGEST](https://github.com/nim444/mcp-ingest) `Python` | MCP server to ingest `API`, `SDK` and `Schema` docs into AI models · in development |
+| [Typer AI Mac](https://github.com/nim444/Typer-AI-Mac) `Swift` | System-wide AI writing copilot for macOS using `Gemini`/`Grok` via `menu bar` & `NSPopover` · predecessor of GGTyper |
+| [Typer AI Android](https://github.com/nim444/Typer-AI-Android) `Kotlin` | System-wide AI typing assistant using `Gemini`/`Grok` via `Quick Settings` & floating tile |
+| [ETL Airflow PG Pipeline](https://github.com/nim444/etl-airflow-pg-pipeline) `Python` | Minimal `ETL pipeline` using `Apache Airflow`, `PostgreSQL`, `Pandas`, and `Docker` |
+| [X Tweet Automation](https://github.com/nim444/x-tweet-automation) `Python` | Queue-based tweet scheduler using `ADB` + `TinyDB` with `CLI` control |
 | [Python T-Strings Security](https://github.com/nim444/python-tstring-injection-prevention) `Python` | Safe templating demo for `Python 3.14+` to prevent `SQLi/XSS` |
-| [MCP INGEST](https://github.com/nim444/mcp-ingest) `Python` | MCP Server for Ingest `API`, `SDK`, and `Schema` into AI Models” |
+| [Django Toolbox](https://github.com/nim444/django-toolbox) `Python` | Field notes for Django — `Silk` profiling, `Celery` patterns, migrations, security, admin |
+| [Eleego](https://github.com/nim444/eleego) `Python` | 3D-printing lab — `Moonraker`/`Fluidd` API, `G-code` manipulation, procedural models |
 | [Firefly III Reverse Proxy](https://github.com/nim444/firefly-mariadb-nginx-self-hosted) `Docker` | `Firefly III` deployed with `MariaDB` + `Nginx` + `SSL` setup |
+
+</details>
 
 ---
 
